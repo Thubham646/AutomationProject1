@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-20T17:03:37 IST" name="Suite" finished-at="2024-01-20T17:04:08 IST" duration-ms="30378">
+    <groups>
+    </groups>
+    <test started-at="2024-01-20T17:03:37 IST" name="Test" finished-at="2024-01-20T17:04:08 IST" duration-ms="30378">
+      <class name="BookStoreTestClasses.VerifyHomePage">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:BookStoreTestClasses.VerifyHomePage@77fbd92c]" started-at="2024-01-20T17:03:58 IST" name="openBrowser" finished-at="2024-01-20T17:04:07 IST" duration-ms="8666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="VerifyAddBookButtonIsEnabled()[pri:0, instance:BookStoreTestClasses.VerifyHomePage@77fbd92c]" started-at="2024-01-20T17:04:07 IST" name="VerifyAddBookButtonIsEnabled" finished-at="2024-01-20T17:04:07 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddBookButtonIsEnabled -->
+        <test-method signature="verifyBookStoreManagerTitle()[pri:0, instance:BookStoreTestClasses.VerifyHomePage@77fbd92c]" started-at="2024-01-20T17:04:07 IST" name="verifyBookStoreManagerTitle" finished-at="2024-01-20T17:04:07 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBookStoreManagerTitle -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:BookStoreTestClasses.VerifyHomePage@77fbd92c]" started-at="2024-01-20T17:04:07 IST" name="closeBrowser" finished-at="2024-01-20T17:04:08 IST" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- BookStoreTestClasses.VerifyHomePage -->
+      <class name="BookStoreTestClasses.VerifyAddBookForm">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:BookStoreTestClasses.VerifyAddBookForm@4550bb58]" started-at="2024-01-20T17:03:37 IST" name="openBrowser" finished-at="2024-01-20T17:03:54 IST" duration-ms="17062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="VerifyAddBookFormWithAllFields()[pri:0, instance:BookStoreTestClasses.VerifyAddBookForm@4550bb58]" started-at="2024-01-20T17:03:55 IST" name="VerifyAddBookFormWithAllFields" finished-at="2024-01-20T17:03:56 IST" duration-ms="1264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddBookFormWithAllFields -->
+        <test-method signature="VerifyAddBookWithTitleOnly()[pri:0, instance:BookStoreTestClasses.VerifyAddBookForm@4550bb58]" started-at="2024-01-20T17:03:56 IST" name="VerifyAddBookWithTitleOnly" finished-at="2024-01-20T17:03:56 IST" duration-ms="566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddBookWithTitleOnly -->
+        <test-method signature="VerifyAddBookWithoutPrice()[pri:0, instance:BookStoreTestClasses.VerifyAddBookForm@4550bb58]" started-at="2024-01-20T17:03:56 IST" name="VerifyAddBookWithoutPrice" finished-at="2024-01-20T17:03:57 IST" duration-ms="786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddBookWithoutPrice -->
+        <test-method signature="verifyCancelButton()[pri:0, instance:BookStoreTestClasses.VerifyAddBookForm@4550bb58]" started-at="2024-01-20T17:03:57 IST" name="verifyCancelButton" finished-at="2024-01-20T17:03:57 IST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCancelButton -->
+        <test-method signature="verifyCloseButton()[pri:0, instance:BookStoreTestClasses.VerifyAddBookForm@4550bb58]" started-at="2024-01-20T17:03:57 IST" name="verifyCloseButton" finished-at="2024-01-20T17:03:58 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCloseButton -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:BookStoreTestClasses.VerifyAddBookForm@4550bb58]" started-at="2024-01-20T17:03:58 IST" name="closeBrowser" finished-at="2024-01-20T17:03:58 IST" duration-ms="464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- BookStoreTestClasses.VerifyAddBookForm -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
